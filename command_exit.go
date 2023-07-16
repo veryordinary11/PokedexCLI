@@ -1,6 +1,8 @@
 package main
 
-import "os"
+import (
+	"os"
+)
 
 func callbackExit(cfg *config, args ...string) error {
 	os.Exit(0)
